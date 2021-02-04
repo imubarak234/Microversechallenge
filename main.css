@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+body {
+        background-image: url("images/850_6498.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        font-family: 'Montserrat','sana-serif';
+
+  }
+
+  p {
+    color: rgb(41, 8, 8);
+  }
+
+  #survey-form {
+      background: linear-gradient(60deg, rgb(5, 39, 58), rgb(34, 168, 90));
+      position: relative;
+      margin-top: 4em;
+      opacity: 0.8;
+      margin-left: 27%;
+      margin-right: 27%;
+      text-align: left;
+      padding-left: 4%;
+      padding-top: 2%;
+      font-size: 1.1em;
+      font-weight: 900;
+      color: hsl(180, 100%, 100%);
+      border-radius: 0.5ems;
+  }
+
+  label {
+    opacity: 1;
+  }
+
+  header p{
+     font-style: italic;
+  }
+
+  #name, #email, #number{
+      width: 87%;
+      height: 2em;
+      font-size: 1em;
+      font-weight: 500;
+      color: hsl(180, 100%, 100%);
+      border-radius: 0.35em;
+  }
+
+  textarea {
+    width: 87%;
+  }
+
+  #submit {
+      position: relative;
+      width: 40%;
+      margin-top: 5em;
+      margin-bottom: 4em;
+      left: 22%;
+      height: 3em;
+      background-color: rgb(56, 16, 9);
+      color: white;
+  }
+
+  #submit:hover {
+    background-color: rgb(18, 109, 18);
+  }
+
+

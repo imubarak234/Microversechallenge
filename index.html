@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1 id = "title">Performance Enchancement and Improvement Survey</h1>
+            <p id = "description">This survey was designed to help management improve diets and targeted work activities to aid improvement of efficiency</p>
+        </header>
+        
+            <form action = "#" id = "survey-form">
+            <label for = "name" id = "name-label"> Name</label>
+            <br>
+            <input type = "text" placeholder = "Enter your name" id = "name" required>
+            <br>
+            <br>
+            <label for = "email" id = "email-label">Email</label>
+            <br>
+            <input type = "email" placeholder = "Enter email address" id = "email" required>
+            <br>
+            <br>
+            <label for = "number" id = "number-label">Number</label>
+            <br>
+            <input type = "number" placeholder = "Enter number" id = "number" min = "0" max = "1000000000">
+            <br>
+            <br>
+            <label for = "dropdown">First drop</label>
+            <select id = "dropdown">
+                <option value = "second" selected>Second</option>
+                <option value = "third">Third</option>
+                <option value = "forth">Forth</option>
+            </select>
+            <br>
+            <br>
+            <label>Gender</label>
+            <br>
+            <label><input type = "radio" name = "gender" value = "male">Male</label>
+            <br>
+            <label><input type = "radio" name = "gender" value = "female">Female</label>
+            <br>
+            <label><input type = "radio" name = "gender" value = "confused">Confused</label>
+            <br>
+            <br>
+            <label>Status</label>
+            <br>
+            <label><input type = "radio" name = "status" value = "single">Single</label>
+            <br>
+            <label><input type = "radio" name = "status" value = "married">Married</label>
+            <br>
+            <label><input type = "radio" name = "status" value = "divorced">divorced</label>
+            <br>
+            <br>
+            <label>What will you like to eat</label>
+            <br>
+            <label><input type = "checkbox" name = "food" value = "egusi & pounded yam">Egusi & Pounded yam</label>
+            <br>
+            <label><input type = "checkbox" name = "food" value = "jollof rice & plantain">Jollof Rice & Plantain</label>
+            <br>
+            <label><input type = "checkbox" name = "food" value = "white rice & fish">White Rice & Fish</label>
+            <br>
+            <label><input type = "checkbox" name = "food" value = "jollof pasta & dried fish with meat">Jollof Pasta & Dried Fish With Meat</label>
+            <br>
+            <label><input type = "checkbox" name = "food" value = "fried yams dipped in eggs">Fried Yams dipped in Eggs</label>
+        <br>
+        <br>
+            <label>Comments or Suggestions</label>
+            <br>
+            <textarea rows = "10" placeholder = "Enter comments here..." class = "comments"></textarea>
+            <br>
+            <button type = "submit" id = "submit">Submit</button>
+            </form>
+    </div>>
+      
+</body>
+</html>
